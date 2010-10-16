@@ -1,0 +1,32 @@
+
+This program is released for research and educational purposes and it is a basic version of the code developed for the paper:
+F. Castanedo, J. García, M. A. Patricio and J.M. Molina. “A Multi-agent Architecture Based On The BDI Model For Data Fusion In Visual Sensor Network”. 
+Journal of Intelligent and Robotic Systems. DOI: 10.1007/s10846-010-9448-1. So, please cite the paper if you find this work useful.
+
+The code employs the annotated (ground-thruth) information of several cameras from the APIDIS dataset
+and the obtained global result is plotted on the ground plane basketball court. 
+It is developed using standard C and tested under Ubuntu Linux, it is no guarantee to work under other OS.
+
+If you have any questions, comments or improvements, feel free to email me:
+
+Federico Castanedo. { <castanedofede_at_gmail.com> | <federico.castanedo_at_uc3m.es> } 
+
+Requirements
+------------
+
+1.- Apidis dataset, you could download from:
+http://www.apidis.org/Dataset/
+
+2.- OpenCV library, you could download from:
+http://opencv.willowgarage.com/wiki/
+
+3.- LibXml, you could download from:
+http://xmlsoft.org/
+
+4.- Reg Willson implementation of Tsai's calibration, you could download from:
+http://www.cs.cmu.edu/~rgw/TsaiCode.html
+
+NOTE: you need to change the location of the apidis images if you want to see them, in
+apidis-main.h #define LOCATION_CAMX
+
+
