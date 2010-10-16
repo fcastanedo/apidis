@@ -60,7 +60,7 @@
 /* track difference value */
 #define DISTANCE 1500
 
-/* para hacer fusion o no */
+/* if you want to fuse data or not */
 //#define FUSION
 
 /* images of each frame and sensor */
